@@ -1,2 +1,9 @@
-download this file and include it in project folder
-http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+The AI-Based Invisible Hand for Disabled People is an innovative assistive technology project designed to enable physically disabled individuals to interact with computers using only facial gestures. This software-only solution utilizes artificial intelligence, computer vision, and deep learning to detect and interpret facial movements captured through a standard webcam, allowing users to control mouse and keyboard functions hands-free.
+
+The project works in two main phases: Calibration and Real-Time Control. In the calibration phase, the system records personalized facial gesture values such as Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR), which represent blinks, eye closure, and mouth opening. These metrics are stored and used to train the system to recognize intentional gestures. In the real-time phase, the trained model predicts actions like mouse movement (through head tilts), clicking (via blinking), and scrolling (by opening the mouth).
+
+The system uses OpenCV for real-time video processing, Mediapipe and Dlib for facial landmark detection, and LSTM (Long Short-Term Memory) neural networks to predict gesture sequences with high accuracy. PyAutoGUI is used to simulate mouse and keyboard events on the screen based on the user's facial inputs.
+
+What makes this project unique is its hardware-free approach—requiring only a webcam—and its adaptability to different users through AI-based learning. The application provides accessibility to users with motor disabilities, enabling them to operate digital devices independently for tasks like browsing, typing, or navigating applications.
+
+This project has strong real-world impact in the fields of assistive technology, accessibility, and human-computer interaction (HCI). It demonstrates how AI can empower individuals with disabilities, ensuring inclusivity and equal opportunity in the digital age.
